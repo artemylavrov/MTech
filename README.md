@@ -18,7 +18,9 @@
 ## Видеодемонстрация работы дашборда
 
 
-https://github.com/artemylavrov/MTech/assets/81652504/69f9b041-8a39-4049-9cb2-0643d7676ddd
+
+
+https://github.com/artemylavrov/MTech/assets/81652504/e6b4a297-15a4-406f-80cb-6611c7591bb4
 
 
 
