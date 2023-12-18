@@ -1,13 +1,13 @@
-FROM python:latest
+FROM python:3.12
 
 WORKDIR /app
 
-COPY ./MTech .
+COPY . .
 
 RUN pip install -r requirements.txt
 
-EXPOSE 5000
+EXPOSE 8501
 
-ENTRYPOINT ["streamlit", "run"]
+HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
 
-CMD ["dashboard.py"]
+ENTRYPOINT ["streamlit", "run", "dashboard.py", "--server.port=8501"]
